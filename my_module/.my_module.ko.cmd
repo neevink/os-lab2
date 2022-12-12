@@ -1,1 +1,0 @@
-cmd_/media/sf_lab/my_module/my_module.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /media/sf_lab/my_module/my_module.ko /media/sf_lab/my_module/my_module.o /media/sf_lab/my_module/my_module.mod.o;  true
